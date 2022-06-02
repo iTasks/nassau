@@ -154,6 +154,7 @@ public class SoupBinTCPClient extends SoupBinTCPSession {
             listener.message(payload);
             break;
         case PACKET_TYPE_SERVER_HEARTBEAT:
+            System.out.println("HeartBeat: "+ PACKET_TYPE_CLIENT_HEARTBEAT);
             break;
         case PACKET_TYPE_END_OF_SESSION:
             statusListener.endOfSession(this);

@@ -181,14 +181,14 @@ public class SoupBinTCP {
             requestedSequenceNumber = new byte[20];
         }
 
-        void get(ByteBuffer buffer) throws IOException {
+        public void get(ByteBuffer buffer) throws IOException {
             buffer.get(username);
             buffer.get(password);
             buffer.get(requestedSession);
             buffer.get(requestedSequenceNumber);
         }
 
-        void put(ByteBuffer buffer) {
+        public void put(ByteBuffer buffer) {
             buffer.put(username);
             buffer.put(password);
             buffer.put(requestedSession);

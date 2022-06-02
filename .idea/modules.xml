@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tests/binaryfile-perf-test/nassau-binaryfile-perf-test.iml" filepath="$PROJECT_DIR$/tests/binaryfile-perf-test/nassau-binaryfile-perf-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/applications/binaryfile-recorder/nassau-binaryfile-recorder.iml" filepath="$PROJECT_DIR$/applications/binaryfile-recorder/nassau-binaryfile-recorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/core/nassau-core.iml" filepath="$PROJECT_DIR$/libraries/core/nassau-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nassau-parent.iml" filepath="$PROJECT_DIR$/nassau-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/soupbintcp-client/nassau-soupbintcp-client.iml" filepath="$PROJECT_DIR$/examples/soupbintcp-client/nassau-soupbintcp-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/applications/soupbintcp-gateway/nassau-soupbintcp-gateway.iml" filepath="$PROJECT_DIR$/applications/soupbintcp-gateway/nassau-soupbintcp-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/soupbintcp-server/nassau-soupbintcp-server.iml" filepath="$PROJECT_DIR$/examples/soupbintcp-server/nassau-soupbintcp-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/util/nassau-util.iml" filepath="$PROJECT_DIR$/libraries/util/nassau-util.iml" />
+    </modules>
+  </component>
+</project>

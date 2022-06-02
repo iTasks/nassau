@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nassau-soupbintcp-server" />
+        <module name="nassau-soupbintcp-gateway" />
+        <module name="nassau-binaryfile-perf-test" />
+        <module name="nassau-util" />
+        <module name="nassau-soupbintcp-client" />
+        <module name="nassau-core" />
+        <module name="nassau-binaryfile-recorder" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nassau-binaryfile-perf-test" target="1.8" />
+      <module name="nassau-binaryfile-recorder" target="1.8" />
+      <module name="nassau-core" target="1.8" />
+      <module name="nassau-parent" target="1.8" />
+      <module name="nassau-soupbintcp-client" target="1.8" />
+      <module name="nassau-soupbintcp-gateway" target="1.8" />
+      <module name="nassau-soupbintcp-server" target="1.8" />
+      <module name="nassau-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nassau-binaryfile-perf-test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="nassau-binaryfile-recorder" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="nassau-core" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="nassau-soupbintcp-client" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="nassau-soupbintcp-gateway" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="nassau-soupbintcp-server" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="nassau-util" options="-Xlint:deprecation -Xlint:unchecked" />
+    </option>
+  </component>
+</project>
